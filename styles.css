@@ -1,6 +1,35 @@
+/* global */
 body{
     font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4{
     font-family: 'Inter', sans-serif;
+}
+
+/* header */
+header, nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    padding: 1em;
+}
+
+/* home - hero */
+#hero{
+    padding: 10em 15em;
+}
+#hero h1{
+    font-size: 3rem;
+}
+#hero h2{
+    font-size: 1.5rem;
 }
