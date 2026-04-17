@@ -25,11 +25,23 @@ ul li a{
 
 /* home - hero */
 #hero{
-    padding: 10em 15em;
+    padding: 10rem;
 }
 #hero h1{
     font-size: 3rem;
 }
 #hero h2{
     font-size: 1.5rem;
+}
+
+/* home - projects */
+#projects #projects-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+.project-cat{
+    border: 2px solid green;
 }
