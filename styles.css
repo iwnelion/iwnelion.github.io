@@ -46,4 +46,6 @@ ul li a{
     border: 2px solid green;
     flex-basis: 20rem;
     padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
