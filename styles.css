@@ -40,8 +40,10 @@ ul li a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 .project-cat{
     border: 2px solid green;
+    flex-basis: 20rem;
+    padding: 5rem 1rem;
 }
