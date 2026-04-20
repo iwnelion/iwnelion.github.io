@@ -53,4 +53,24 @@ ul li a{
     background-repeat: no-repeat;
     background-position: center;
     min-height: 18rem;
+    min-width: 14rem;
+}
+
+/* home - about */
+#about{
+    display: flex;
+    gap: 3rem;
+}
+#about-txt{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#timeline{
+    flex: 1;
+}
+.exp-line{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
 }
