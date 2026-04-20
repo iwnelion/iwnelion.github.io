@@ -45,7 +45,12 @@ ul li a{
 .project-cat{
     border: 2px solid green;
     flex-basis: 20rem;
-    padding: 5rem 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(https://placecats.com/400/400);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 18rem;
 }
