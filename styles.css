@@ -1,9 +1,19 @@
+/* variables */
+:root{
+    --white-bckgr: #fff; 
+    --skills-cards-bckgr: rgb(33, 33, 33);
+}
+
 /* global */
 body{
     font-family: 'Open Sans', sans-serif;
+    padding: 1rem 4rem;
 }
 h1, h2, h3, h4{
     font-family: 'Inter', sans-serif;
+}
+h3{
+    text-align: center;
 }
 
 /* header */
@@ -11,10 +21,11 @@ header, nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 header a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 ul{
     list-style: none;
@@ -25,7 +36,7 @@ ul li a{
 
 /* home - hero */
 #hero{
-    padding: 10rem;
+    padding: 6rem;
 }
 #hero h1{
     font-size: 3rem;
@@ -44,7 +55,7 @@ ul li a{
 }
 .project-cat{
     border: 2px solid green;
-    flex-basis: 20rem;
+    flex-basis: 15rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -54,6 +65,20 @@ ul li a{
     background-position: center;
     min-height: 18rem;
     min-width: 14rem;
+    color: var(--white-bckgr);
+    position: relative;
+    overflow: hidden;
+}
+.project-cat::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.project-cat > * {
+    position: relative;
+    z-index: 1;
 }
 
 /* home - about */
@@ -73,6 +98,13 @@ ul li a{
     display: flex;
     gap: 1rem;
     flex-wrap: nowrap;
+    border: 1px solid red;
+    border-radius: 20px;
+    min-height: 5rem;
+    max-width: 30rem;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
 }
 
 /* home - skills */
@@ -84,7 +116,7 @@ ul li a{
     gap: 3rem;
 }
 .skill-category{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     flex: 0 1 18rem;
     min-height: 15rem;
     display: flex;
@@ -92,9 +124,11 @@ ul li a{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 20px;
 }
 .skill-category:hover{
-    background-color: red;
+    background-color: var(--skills-cards-bckgr);
+    color: var(--white-bckgr);
 }
 .tools{
     display: flex;
@@ -111,3 +145,5 @@ ul li a{
 .tools span:hover{
     background-color: #ccc;
 }
+
+/* footer */
