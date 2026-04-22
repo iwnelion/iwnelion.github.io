@@ -7,6 +7,9 @@
 /* global */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.page{
     padding: 1rem 4rem;
 }
 h1, h2, h3, h4{
@@ -116,7 +119,7 @@ ul li a{
     gap: 3rem;
 }
 .skill-category{
-    /* border: 1px solid blue; */
+    border: 1px solid var(--skills-cards-bckgr);
     flex: 0 1 18rem;
     min-height: 15rem;
     display: flex;
@@ -125,10 +128,12 @@ ul li a{
     align-items: center;
     text-align: center;
     border-radius: 20px;
+    padding: 1rem;
 }
 .skill-category:hover{
     background-color: var(--skills-cards-bckgr);
     color: var(--white-bckgr);
+    
 }
 .tools{
     display: flex;
@@ -138,12 +143,47 @@ ul li a{
 }
 .tools span{
     padding: 0.2rem 0.6rem;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(60, 60, 60);
     border-radius: 999px;
     font-size: 0.9rem;
 }
 .tools span:hover{
-    background-color: #ccc;
+    background-color: var(--white-bckgr);
+    color: var(--skills-cards-bckgr);
 }
 
 /* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--skills-cards-bckgr);
+    padding: 4rem 10rem;
+    color: var(--white-bckgr);
+    justify-content: space-between;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#info{
+    text-align: center;
+}
+#footer-menu ul, #handles ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-menu ul a, #handles ul a{
+    text-align: right;
+}
+.footer-col:first-child{
+    flex: 1;
+}
+.footer-col:last-child{
+    flex: 2;
+    align-items: flex-end;
+    text-align: right;
+}
