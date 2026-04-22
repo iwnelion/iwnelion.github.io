@@ -74,3 +74,22 @@ ul li a{
     gap: 1rem;
     flex-wrap: nowrap;
 }
+
+/* home - skills */
+#skills-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.skill-category{
+    border: 1px solid blue;
+    flex: 0 1 18rem;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
