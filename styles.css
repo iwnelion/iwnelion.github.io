@@ -93,3 +93,21 @@ ul li a{
     align-items: center;
     text-align: center;
 }
+.skill-category:hover{
+    background-color: red;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.tools span{
+    padding: 0.2rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+.tools span:hover{
+    background-color: #ccc;
+}
