@@ -165,6 +165,22 @@ ul li a{
     color: var(--skills-cards-bckgr);
 }
 
+/* home - contact */
+#connect{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+#connect img{
+    width: 40px;
+    height: auto;
+}
+.icon-box{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 /* footer */
 footer{
     display: flex;
