@@ -10,7 +10,10 @@ body{
     margin: 0;
 }
 .page{
-    padding: 1rem 4rem;
+    margin: 1rem 4rem;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    background-color: #dfdfdf;
 }
 h1, h2, h3, h4{
     font-family: 'Roboto Mono', sans-serif;
@@ -21,9 +24,16 @@ h3{
 }
 a{
     text-decoration: none;
+    color: #000;
+}
+#projects, #about, #skills, #contact{
+    padding: 1rem 0;
 }
 
 /* header */
+header{
+    padding: 1rem 4rem;
+}
 header, nav ul{
     display: flex;
     flex-direction: row;
@@ -193,4 +203,7 @@ footer{
     flex: 2;
     align-items: flex-end;
     text-align: right;
+}
+footer a{
+    color: var(--white-bckgr);
 }
