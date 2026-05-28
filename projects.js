@@ -69,6 +69,20 @@ let projects = [
         // image:
         // liveUrl:
         caseStudy: false,
-        slug: "ultimae-marine-etailing"
+        slug: "ultimae-marine-detailing"
+    },
+    {
+        id: 5,
+        title: "Roditis P.D.R.",
+        category: "wordpress",
+        type: "Business website",
+        status: "completed",
+        featured: true,
+        shortDescription: "WordPress business website for a Paintless Dent Repair company, featuring structured service presentation, dedicated training section, and a user-focused content layout.",
+        technologies: ["WordPress", "Elementor", "CSS", "Content Structuring"],
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "roditis-pdr"
     }
 ]
