@@ -28,5 +28,33 @@ let projects = [
         // liveUrl:
         caseStudy: true,
         slug: "4rent-thessaloniki"
+    },
+    {
+        id: 3,
+        title: "Lucencia",
+        category: "wordpress",
+        type: "Eshop",
+        status: "completed",
+        featured: true,
+        shortDescription: "Minimal e-commerce website designed to provide a clean and intuitive shopping experience, with responsive layouts, streamlined navigation, and integrated payment methods.",
+        technologies: ["WordPress", "WooCommerce", "Elementor", "CSS", "Box Now", "Piraeus Bank WooCommerce Gateway"],
+        // image: 
+        // liveUrl:
+        caseStudy: true,
+        slug: "lucencia"
+    },
+    {
+        id: 4,
+        title: "Code36",
+        category: "wordpress",
+        type: "Business website",
+        status: "completed",
+        featured: true,
+        shortDescription: "Responsive business website for a boat rental company, designed to showcase services, fleet information, and operating locations through a clean and structured interface.",
+        technologies: ["WordPress", "Elementor", "Envato Template", "CSS", "Responsive Design"],
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "code36"
     }
 ]
