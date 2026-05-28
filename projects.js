@@ -56,5 +56,19 @@ let projects = [
         // liveUrl:
         caseStudy: false,
         slug: "code36"
+    },
+    {
+        id: 5,
+        title: "Ultimae Marine Detailing",
+        category: "wordpress",
+        type: "Business website",
+        status: "in-progress",
+        featured: true,
+        shortDescription: "Corporate WordPress website for a boat detailing business, focused on presenting services and portfolio work, built with a customized theme structure, content migration, and multilingual support.",
+        technologies: ["WordPress", "Theme Customization", "WPML", "Elementor", "CSS"], 
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "ultimae-marine-etailing"
     }
 ]
