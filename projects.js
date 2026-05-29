@@ -104,14 +104,27 @@ let projects = [
         title: "PCPortal",
         category: "wordpress",
         type: "Eshop",
-        status: "support-maintenance",
+        status: "redevelopment",
         featured: true,
-        shortDescription: "Maintenance and redesign support for an existing e-commerce website, involving UI improvements, functionality adjustments, and user experience enhancements based on client requirements.",
-        technologies: ["WordPress", "WooCommerce", "Elementor", "CSS", "UX/UI Improvements"],
+        shortDescription: "Contribution to the ongoing redesign and redevelopment of an e-commerce platform, involving UI improvements, functionality enhancements, and implementation of client-requested adjustments within an active production workflow.",
+        technologies: ["WordPress", "WooCommerce", "Porto", "CSS", "JS", "PHP","Frontend Adjustments", "Responsive Design"],
         // image:
         // liveUrl:
         caseStudy: false,
         slug: "pcportal"
-
+    },
+    {
+        id: 8,
+        title: "Akoustikamou",
+        category: "wordpress",
+        type: "Eshop",
+        status: "redevelopment",
+        featured: true,
+        shortDescription: "Participation in the ongoing redevelopment of an e-commerce website, focusing on design refinements, functionality updates, and user experience improvements during active project development.",
+        technologies: ["WordPress", "WooCommerce", "Porto", "CSS", "JS", "PHP", "Design Refinement", "Responsive Design"],
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "akoustikamou"
     }
 ]
