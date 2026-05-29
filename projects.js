@@ -98,5 +98,20 @@ let projects = [
         // liveUrl:
         caseStudy: false,
         slug: "logistor"
+    },
+    {
+        id: 7,
+        title: "PCPortal",
+        category: "wordpress",
+        type: "Eshop",
+        status: "support-maintenance",
+        featured: true,
+        shortDescription: "Maintenance and redesign support for an existing e-commerce website, involving UI improvements, functionality adjustments, and user experience enhancements based on client requirements.",
+        technologies: ["WordPress", "WooCommerce", "Elementor", "CSS", "UX/UI Improvements"],
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "pcportal"
+
     }
 ]
