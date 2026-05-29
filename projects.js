@@ -84,5 +84,19 @@ let projects = [
         // liveUrl:
         caseStudy: false,
         slug: "roditis-pdr"
+    },
+    {
+        id: 6,
+        title: "Logistor",
+        category: "wordpress",
+        type: "Landing page",
+        status: "completed",
+        featured: true,
+        shortDescription: "Landing page designed for the promotion of a tax audit seminar, focused on increasing registrations through structured content, targeted messaging, and a clear user flow.",
+        technologies: ["WordPress", "Elementor", "Template Customization", "CSS", "Responsive Design"],
+        // image:
+        // liveUrl:
+        caseStudy: false,
+        slug: "logistor"
     }
 ]
