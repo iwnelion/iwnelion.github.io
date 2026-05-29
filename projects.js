@@ -4,7 +4,8 @@ let projects = [
     {
         id: 1,
         title: "Polis Events",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Events database",
         status: "in-progress",
         display: true,
@@ -18,7 +19,8 @@ let projects = [
     {
         id: 2,
         title: "4rent Thessaloniki",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Car rental",
         status: "completed",
         display: true,
@@ -32,7 +34,8 @@ let projects = [
     {
         id: 3,
         title: "Lucencia",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Eshop",
         status: "completed",
         display: true,
@@ -46,7 +49,8 @@ let projects = [
     {
         id: 4,
         title: "Code36",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Business website",
         status: "completed",
         display: true,
@@ -60,7 +64,8 @@ let projects = [
     {
         id: 5,
         title: "Ultimae Marine Detailing",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Business website",
         status: "in-progress",
         display: true,
@@ -74,7 +79,8 @@ let projects = [
     {
         id: 6,
         title: "Roditis P.D.R.",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Business website",
         status: "completed",
         display: true,
@@ -88,7 +94,8 @@ let projects = [
     {
         id: 7,
         title: "Logistor",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Landing page",
         status: "completed",
         display: true,
@@ -102,7 +109,8 @@ let projects = [
     {
         id: 8,
         title: "PCPortal",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Eshop",
         status: "redevelopment",
         display: true,
@@ -116,7 +124,8 @@ let projects = [
     {
         id: 9,
         title: "Akoustikamou",
-        category: "wordpress",
+        category: "web-frontend",
+        subcategory: "wordpress",
         type: "Eshop",
         status: "redevelopment",
         display: true,
