@@ -2,12 +2,24 @@
 function renderProjects(projectsArray, container){
     container.innerHTML = "";
     let output = "";
-
+    
+    
     projectsArray.forEach(project => {
+        let technologiesHTML = "";
+        
+        // loop through the technologies array
+        project.technologies.forEach(technology => {
+            technologiesHTML += `<span class="tech-pill">${technology}</span>`;
+        });
+
         output += `
             <div class="project-card">
+                <span class="project-type">${project.type}</span>
                 <h3>${project.title}</h3>
                 <p>${project.shortDescription}</p>
+                <div class="project-technologies">
+                    ${technologiesHTML}
+                </div>
             </div>
         `;
     });
