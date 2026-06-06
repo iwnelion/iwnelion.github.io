@@ -14,7 +14,7 @@ function renderProjects(projectsArray, container){
 
         output += `
             <div class="project-card">
-                <span class="project-type">${project.type}</span>
+                <span class="project-type">[ ${project.type} ]</span>
                 <h3>${project.title}</h3>
                 <p>${project.shortDescription}</p>
                 <div class="project-technologies">
