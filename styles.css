@@ -26,7 +26,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-#projects, #about, #skills, #contact{
+#work, #about, #skills, #contact{
     padding: 1rem 0;
 }
 
@@ -61,15 +61,15 @@ ul li a{
     font-size: 1.5rem;
 }
 
-/* home - projects */
-#projects #projects-box{
+/* home - work */
+#work #work-box{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
 }
-.project-cat{
+.work-cat{
     border: 2px solid green;
     flex-basis: 15rem;
     padding: 1rem;
@@ -85,14 +85,14 @@ ul li a{
     position: relative;
     overflow: hidden;
 }
-.project-cat::before {
+.work-cat::before {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
-.project-cat > * {
+.work-cat > * {
     position: relative;
     z-index: 1;
 }
